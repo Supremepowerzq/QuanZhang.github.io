@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Wenye Yu</title>
-    <meta name="description" content="Wenye Yu — Robotics and Embodied AI" />
+    <title>张权</title>
+    <meta name="description" content="张权 — 机器人与具身智能（Embodied AI）" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -12,171 +12,390 @@
   </head>
   <body>
     <main class="container">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+        <span class="sep">/</span>
+        <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
+      </div>
+
+      <div class="lang-block" data-lang="zh">
       <header class="header">
         <div class="title">
-          <h1 class="name">Wenye Yu</h1>
-          <p class="affiliation">Ph.D. Student, Machine Vision and Intelligence Group (MVIG), Shanghai Jiao Tong University</p>
-          <p class="advisors">Advised by Prof. Cewu Lu</p>
+          <h1 class="name">张 权</h1>
+          <p class="affiliation">博士研究生，同济大学 机械与能源工程学院</p>
+          <p class="advisors">智能医疗机器课题组</p>
+          <p class="advisors">导师:唐一超教授</p>
+          <p class="advisors">邮箱:2510011@tongji.edu.cn</p>
           <p class="links">
-            <a href="#" target="_blank" rel="noopener">Email</a>
+            <a href="#" target="_blank" rel="noopener">Google Scholar</a>
             <span class="sep">/</span>
-            <a href="#" target="_blank" rel="noopener">Scholar</a>
+            <a href="#" target="_blank" rel="noopener">ORCID</a>
             <span class="sep">/</span>
-            <a href="#" target="_blank" rel="noopener">Twitter</a>
+            <a href="#" target="_blank" rel="noopener">X(Twitter)</a>
             <span class="sep">/</span>
-            <a href="#" target="_blank" rel="noopener">Github</a>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
           </p>
         </div>
         <div class="avatar-wrap">
-          <img src="assets/profile.jpg" alt="profile photo" class="avatar" />
+          <a href="assets/profile.jpg" target="_blank" rel="noopener">
+            <img src="assets/profile.jpg" alt="张权个人照片" class="avatar" />
+          </a>
         </div>
       </header>
 
       <section class="section intro">
         <p>
-          Hi there! I am a first-year Ph.D. student at Machine Vision and Intelligence Group (MVIG), Shanghai Jiao Tong University, advised by Prof. Cewu Lu. I received my Bachelor's degree from the first session of Guozhi Class (held by Prof. Xiaoou Tang), Shanghai Jiao Tong University. Previously, I worked as a research intern at InternRobotics, supervised by Dr. Jiangmiao Pang.
-        </p>
-        <p>
-          My research interest lies in Robotics and Embodied AI, with a particular interest in human-in-the-loop learning and generalizable robotic manipulation. Representative works are highlighted.
+          Hello！我是张权，研究方向为机器人与具身智能（Embodied AI）。我关注将人类在环学习、人机协同与策略自适应用于真实世界复杂任务，当前重点聚焦于医疗介入手术机器人系统与泛化操控。
+          攻读博士期间，我围绕感知—决策—控制一体化开展研究，目标是使机器人具备稳健、可信与可迁移的真实场景能力。
         </p>
       </section>
 
       <section class="section" id="news">
-        <h2>News</h2>
+        <h2>最新动态</h2>
         <ul class="news">
-          <li><span class="date">2025.10</span> 🎉 ARMADA wins Best Paper Award at IROS 2025 HRII Workshop!</li>
-          <li><span class="date">2025.04</span> 🎉 Robosplat is accepted by RSS 2025!</li>
-          <li><span class="date">2024.09</span> 🎉 One paper (Learning H-Infinity Locomotion Control) is accepted by CoRL 2024!</li>
-          <li><span class="date">2023.08</span> Joined InternRobotics</li>
-          <li><span class="date">2023.02</span> Joined Machine Vision and Intelligence Group (MVIG)</li>
+          <li><span class="date">2025.06</span> 🎉IROS2025录用论文1篇。</li>
+          <li><span class="date">2025.01</span> 🎉以第一作者发表Device（Cell子刊）论文1篇。</li>
+          <li><span class="date">2024.11</span> 启动“具身智能自主介入手术机器人系统”方向研究。</li>
+          <li><span class="date">2024.10</span> 🎉项目获“2024中德智能机器人创新创业大赛”特等奖。</li>
+          <li><span class="date">2023.08</span> 加入同济大学“智能医疗机器”课题组，开展介入手术机器人系统研究。</li>
+          <li><span class="date">2022.10-2023.07</span> 🎉获国际大学生智能农业装备创新大赛一等奖，
+                                                          以第一作者发表SCI科研论文一篇，
+                                                          申请软件著作权一项。</li>
+          <li><span class="date">2022.10-2023.07</span> 基于计算机视觉与深度学习的水果采摘机器人目标识别、跟踪与控制系统项目。</li>
+          <li><span class="date">2021.03-2022.09</span> 国家级大学生科创项目队长（计算机视觉相关），获北京市挑战杯二等奖，申请发明专利1项。</li>
         </ul>
       </section>
 
       <section class="section" id="research">
-        <h2>Research</h2>
+        <h2>研究</h2>
 
-        <article class="paper">
+        <article class="paper paper-highlight">
           <div class="paper-body">
-            <h3 class="paper-title">ARMADA: Autonomous Online Failure Detection and Human Shared Control Empower Scalable Real-world Deployment and Adaptation</h3>
-            <p class="authors">Wenye Yu, Jun Lv, Zixi Ying, Yang Jin, Chuan Wen†, Cewu Lu†</p>
-            <p class="venue">In submission, 2025 <span class="badge">🏆 Best Paper Award at IROS 2025 Workshop on Human-in-the-Loop Robot Learning in the Era of Foundation Models</span></p>
+            <h3 class="paper-title">具身智能（Embodied AI）自主介入手术机器人系统</h3>
+            <p class="authors">2024.11-至今 </p>
+            <p class="venue">以第一作者发表Device（Cell子刊）论文1篇；申请发明专利2项、软件著作权2项</p>
             <p class="links">
-              <a href="#" target="_blank" rel="noopener">project page</a>
+              <a href="#" target="_blank" rel="noopener">项目页</a>
               <span class="sep">/</span>
-              <a href="#" target="_blank" rel="noopener">paper</a>
+              <a href="https://doi.org/10.1016/j.device.2025.100839" target="_blank" rel="noopener">论文</a>
               <span class="sep">/</span>
-              <a href="#" target="_blank" rel="noopener">code</a>
+              <a href="#" target="_blank" rel="noopener">代码</a>
             </p>
             <p class="summary">
-              ARMADA is a multi-robot deployment and adaptation system with human-in-the-loop shared control, featuring an autonomous online failure detection method named FLOAT. It enables scalable deployment of pretrained policies and thereby expedites policy adaptation to novel scenarios.
+              论文题目：Addressing the ‘‘world map problem’’ for submillimeter medical robots requires advancing local sensing beyond external imaging dependence；DOI：
+              <a href="https://doi.org/10.1016/j.device.2025.100839" target="_blank" rel="noopener">10.1016/j.device.2025.100839</a>
+            </p>
+            <p class="summary">
+              构建涵盖“感知—决策—控制”的实验平台，发展具身智能机器人系统；融合人机协同与环境交互以提高安全性与可迁移性，面向真实临床场景的在线适应与稳健执行。
+            </p>
+          </div>
+        </article>
+
+        <article class="paper paper-highlight">
+          <div class="paper-body">
+            <h3 class="paper-title">自主目标追踪的介入手术机器人系统</h3>
+            <p class="authors">2023.8-至今</p>
+            <p class="venue">IROS 2025录用论文1篇；申请发明专利2项、软件著作权2项</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">项目页</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">论文</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">代码</a>
+            </p>
+            <p class="summary">
+              论文题目：Continuous renal calculi tracking for autonomous robotic ureteroscopic lithotripsy
+            </p>
+            <p class="summary">
+              面向组织遮挡、运动模糊与形变等难点，构建时空感知的目标追踪与偏差抑制策略；定位误差控制至约0.3mm；结合深度网络（Quenching网络）与DRL控制实现稳健操作。
             </p>
           </div>
         </article>
 
         <article class="paper">
           <div class="paper-body">
-            <h3 class="paper-title">Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation</h3>
-            <p class="authors">Sizhe Yang*, Wenye Yu*, Jia Zeng, Jun Lv, Kerui Ren, Cewu Lu, Dahua Lin, Jiangmiao Pang†</p>
-            <p class="venue">Robotics: Science and Systems (RSS), 2025</p>
+            <h3 class="paper-title">基于计算机视觉与深度学习的苹果采摘机器人识别/跟踪/控制</h3>
+            <p class="authors">2022.10–2023.07 </p>
+            <p class="venue">第一作者SCI论文1篇；软件著作权1项；国际竞赛等次奖2项</p>
             <p class="links">
-              <a href="#" target="_blank" rel="noopener">project page</a>
+              <a href="#" target="_blank" rel="noopener">项目页</a>
               <span class="sep">/</span>
-              <a href="#" target="_blank" rel="noopener">paper</a>
+              <a href="https://doi.org/10.3390/smartcities6060150" target="_blank" rel="noopener">论文</a>
               <span class="sep">/</span>
-              <a href="#" target="_blank" rel="noopener">code</a>
+              <a href="#" target="_blank" rel="noopener">代码</a>
             </p>
             <p class="summary">
-              RoboSplat leverages 3D Gaussian Splatting to generate novel demonstrations for RGB-based policy learning in a one-shot manner, enabling robust performance across six types of visual generalization in the real world.
+              论文题目：Real-Time Recognition and Localization of Apples for Robotic Picking Based on Structural Light and Deep Learning；DOI：
+              <a href="https://doi.org/10.3390/smartcities6060150" target="_blank" rel="noopener">10.3390/smartcities6060150</a>
+            </p>
+            <p class="summary">
+              针对果园复杂光照与遮挡，基于PyTorch改进YOLO等目标检测/跟踪模块并构建控制闭环，显著提升在复杂环境中的识别与作业稳定性。
             </p>
           </div>
         </article>
 
         <article class="paper">
           <div class="paper-body">
-            <h3 class="paper-title">SIME: Enhancing Policy Self-Improvement with Modal-level Exploration</h3>
-            <p class="authors">Yang Jin*, Jun Lv*, Wenye Yu, Hongjie Fang, Yong-Lu Li, Cewu Lu†</p>
-            <p class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</p>
+            <h3 class="paper-title">国家级大创：基于红外图像的土壤渗透性能测量</h3>
+            <p class="authors">2021.03–2022.09 · 张权（负责人）</p>
+            <p class="venue">申请发明专利1项</p>
             <p class="links">
-              <a href="#" target="_blank" rel="noopener">project page</a>
+              <a href="#" target="_blank" rel="noopener">项目页</a>
               <span class="sep">/</span>
-              <a href="#" target="_blank" rel="noopener">paper</a>
+              <a href="#" target="_blank" rel="noopener">论文</a>
               <span class="sep">/</span>
-              <a href="#" target="_blank" rel="noopener">code</a>
+              <a href="#" target="_blank" rel="noopener">代码</a>
             </p>
             <p class="summary">
-              With modal-level exploration, the robot can generate more diverse and multi-modal interaction data and effectively refine capabilities through self-improvement.
-            </p>
-          </div>
-        </article>
-
-        <article class="paper">
-          <div class="paper-body">
-            <h3 class="paper-title">Learning H-Infinity Locomotion Control</h3>
-            <p class="authors">Junfeng Long*, Wenye Yu*, Quanyi Li*, Zirui Wang, Dahua Lin, Jiangmiao Pang†</p>
-            <p class="venue">Conference on Robot Learning (CoRL), 2024 <span class="badge">🏆 Best Poster Award at CoRL 2024 LocoLearn Workshop</span></p>
-            <p class="links">
-              <a href="#" target="_blank" rel="noopener">project page</a>
-              <span class="sep">/</span>
-              <a href="#" target="_blank" rel="noopener">paper</a>
-            </p>
-            <p class="summary">
-              An adversarial framework for quadrupedal robots which enhances robustness against external forces with a performance guarantee.
-            </p>
-          </div>
-        </article>
-
-        <article class="paper">
-          <div class="paper-body">
-            <h3 class="paper-title">GRUtopia: Dream General Robots in a City at Scale</h3>
-            <p class="authors">Hanqing Wang*, Jiahe Chen*, Wensi Huang*, Qingwei Ben*, Tai Wang*, Boyu Mi*, Tao Huang, Siheng Zhao, Yilun Chen, Sizhe Yang, Peizhou Cao, Wenye Yu, Zichao Ye, Jialun Li, Junfeng Long, Zirui Wang, Huiling Wang, Ying Zhao, Zhongying Tu, Yu Qiao, Dahua Lin, Jiangmiao Pang†</p>
-            <p class="venue">arXiv, 2024</p>
-            <p class="links">
-              <a href="#" target="_blank" rel="noopener">project page</a>
-              <span class="sep">/</span>
-              <a href="#" target="_blank" rel="noopener">paper</a>
-              <span class="sep">/</span>
-              <a href="#" target="_blank" rel="noopener">code</a>
-            </p>
-            <p class="summary">
-              A simulated interactive 3D society designed for various robots, featuring GRScenes (100k interactive scenes), GRResidents (LLM-driven NPC), and GRBench.
+              设计红外成像与信号处理流程，利用OpenCV与BP神经网络进行特征提取与参数反演，完成渗透特性无损测量原型验证。
             </p>
           </div>
         </article>
       </section>
 
       <section class="section" id="awards">
-        <h2>Selected Honors and Awards</h2>
+        <h2>部分荣誉与奖励</h2>
         <ul class="bullets">
-          <li><span class="date">2025.06</span> Outstanding Graduates in Shanghai (Top 3%)</li>
-          <li><span class="date">2024.06</span> SenseTime Scholarship (top 25 undergraduates in China)</li>
-          <li><span class="date">2023.09</span> National Scholarship</li>
-          <li><span class="date">2022.09</span> National Scholarship (Highest Honour for undergraduates in China)</li>
+          <li><span class="date">2024.10</span> 2024中德智能机器人创新创业大赛 特等奖</li>
+          <li><span class="date">2024.09</span> 优秀研究生奖学金</li>
+          <li><span class="date">—</span> 校级三好学生
+          <li><span class="date">—</span> 社会实践优秀个人
+          <li><span class="date">—</span> 优秀志愿者
+            </li>
         </ul>
       </section>
 
       <section class="section" id="service">
-        <h2>Service</h2>
-        <p>I served as reviewer for the following conferences:</p>
-        <ul class="bullets">
-          <li>ICRA: 2026</li>
-        </ul>
+        <h2>学术任职</h2>
+        <p>IROS 2025 审稿人</p>
+        <p>Device 审稿人<p>
+        <p>Smart cities 审稿人</p>
       </section>
 
       <section class="section" id="misc">
-        <h2>Miscellanea</h2>
+        <h2>其它</h2>
         <p>
-          During off time, I am a music enthusiast, fond of a wide range of genres including Hip-Hop, R&amp;B, Rock, Pop, and Electronic. I'm also broadly interested in sports, among which basketball, tennis, and Formula 1 are my favourites. Besides, I am also a fan of travelling and cinematography.
+          技能：熟练掌握 PyTorch / TensorFlow / OpenCV；具备视觉感知—控制闭环开发经验。
         </p>
-        <p class="note">This homepage is designed based on Jon Barron's website and deployed on Github Pages. The profile photo is taken by Annie Wang.</p>
+          外语：CET-6。
+        <p>
+          兴趣：音乐（吉他、R&amp;B、摇滚、流行）、篮球、羽毛球、赛车、旅行与影像创作。
+        </p>
+        </p>
+        <p class="note">本主页借鉴了 Jon Barron 的个人网站设计，并部署在 GitHub Pages。</p>
       </section>
 
       <footer class="footer">
-        <p>© <span id="year"></span> Wenye Yu — Built for GitHub Pages</p>
+        <p>© <span id="year"></span> 张权 — Built for GitHub Pages</p>
       </footer>
+      </div>
+
+      <div class="lang-block" data-lang="en">
+      <header class="header">
+        <div class="title">
+          <h1 class="name">Quan Zhang</h1>
+          <p class="affiliation">Ph.D. student, School of Mechanical and Energy Engineering, Tongji University</p>
+          <p class="advisors">Intelligent Medical Machines Group</p>
+          <p class="advisors">Advisor: Prof. Yichao Tang</p>
+          <p class="advisors">Email: 2510011@tongji.edu.cn</p>
+          <p class="links">
+            <a href="#" target="_blank" rel="noopener">Google Scholar</a>
+            <span class="sep">/</span>
+            <a href="#" target="_blank" rel="noopener">ORCID</a>
+            <span class="sep">/</span>
+            <a href="#" target="_blank" rel="noopener">X(Twitter)</a>
+            <span class="sep">/</span>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+          </p>
+        </div>
+        <div class="avatar-wrap">
+          <a href="assets/profile.jpg" target="_blank" rel="noopener">
+            <img src="assets/profile.jpg" alt="Portrait of Zhang Quan" class="avatar" />
+          </a>
+        </div>
+      </header>
+
+      <section class="section intro">
+        <p>
+          Hello! I am Zhang Quan, a Ph.D. student at Tongji University's School of Mechanical and Energy Engineering, focusing on Robotics and Embodied AI. I study human-in-the-loop learning, human–robot collaboration, and policy adaptation for complex real-world tasks, with a current emphasis on autonomous interventional surgical robotic systems and generalizable manipulation.
+        </p>
+        <p>
+          During my Ph.D., I work on perception–decision–control integration to enable robots that are robust, trustworthy, and transferable in real-world scenarios.
+        </p>
+      </section>
+
+      <section class="section" id="news-en">
+        <h2>News</h2>
+        <ul class="news">
+          <li><span class="date">2025.06</span> 🎉One paper accepted at IROS 2025.</li>
+          <li><span class="date">2025.01</span> 🎉One first-author paper accepted by Device (Cell Press).</li>
+          <li><span class="date">2024.11</span> Launched the research direction: Embodied-AI autonomous interventional surgical robotic system.</li>
+          <li><span class="date">2024.10</span> 🎉Grand Prize at the 2024 China–Germany Intelligent Robotics Innovation & Entrepreneurship Competition.</li>
+          <li><span class="date">2023.08</span> Joined Tongji University's “Intelligent Medical Machines” group to study interventional surgical robotic systems.</li>
+          <li><span class="date">2022.10–2023.07</span> 🎉Won First Prize in an international competition on intelligent agricultural equipment; one first-author SCI paper; one software copyright.</li>
+          <li><span class="date">2022.10–2023.07</span> Project: computer-vision-based fruit-picking robot for detection, tracking, and control.</li>
+          <li><span class="date">2021.03–2022.09</span> Led a national innovation project (computer vision); Beijing Challenge Cup Second Prize; one invention patent filed.</li>
+        </ul>
+      </section>
+
+      <section class="section" id="research-en">
+        <h2>Research</h2>
+
+        <article class="paper paper-highlight">
+          <div class="paper-body">
+            <h3 class="paper-title">Embodied-AI Autonomous Interventional Surgical Robotic System</h3>
+            <p class="authors">2024.11–present</p>
+            <p class="venue">One first-author paper in Device (Cell Press); 2 invention patents and 2 software copyrights</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">Project</a>
+              <span class="sep">/</span>
+              <a href="https://doi.org/10.1016/j.device.2025.100839" target="_blank" rel="noopener">Paper</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">Code</a>
+            </p>
+            <p class="summary">
+              Paper title: Addressing the ‘‘world map problem’’ for submillimeter medical robots requires advancing local sensing beyond external imaging dependence; DOI: 
+              <a href="https://doi.org/10.1016/j.device.2025.100839" target="_blank" rel="noopener">10.1016/j.device.2025.100839</a>
+            </p>
+            <p class="summary">
+              We build a perception–decision–control platform and develop embodied intelligence for robotic systems. By integrating human-robot collaboration and environment interaction, we enhance safety and transferability for online adaptation and robust execution in clinical settings.
+            </p>
+          </div>
+        </article>
+
+        <article class="paper paper-highlight">
+          <div class="paper-body">
+            <h3 class="paper-title">Autonomous Target Tracking for Interventional Robots</h3>
+            <p class="authors">2023.08–present</p>
+            <p class="venue">One paper accepted at IROS 2025; 2 invention patents and 2 software copyrights</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">Project</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">Paper</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">Code</a>
+            </p>
+            <p class="summary">
+              Paper title: Continuous renal calculi tracking for autonomous robotic ureteroscopic lithotripsy
+            </p>
+            <p class="summary">
+              Addressing occlusion, motion blur, and tissue deformation, we design spatiotemporal perception and bias-suppression strategies (≈0.3 mm localization error), and integrate deep networks (e.g., Quenching) with DRL controllers for robust manipulation.
+            </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-body">
+            <h3 class="paper-title">Vision and Deep Learning for Apple-Picking Robots</h3>
+            <p class="authors">2022.10–2023.07</p>
+            <p class="venue">One first-author SCI paper; one software copyright; two competition awards</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">Project</a>
+              <span class="sep">/</span>
+              <a href="https://doi.org/10.3390/smartcities6060150" target="_blank" rel="noopener">Paper</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">Code</a>
+            </p>
+            <p class="summary">
+              Paper title: Real-Time Recognition and Localization of Apples for Robotic Picking Based on Structural Light and Deep Learning; DOI: 
+              <a href="https://doi.org/10.3390/smartcities6060150" target="_blank" rel="noopener">10.3390/smartcities6060150</a>
+            </p>
+            <p class="summary">
+              For challenging orchard conditions (lighting/occlusion), we enhance YOLO-based detection/tracking in PyTorch and build a control loop, significantly improving recognition and operation stability in the wild.
+            </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-body">
+            <h3 class="paper-title">National Innovation: Soil Permeability via Infrared Imaging</h3>
+            <p class="authors">2021.03–2022.09 · Zhang Quan (Lead)</p>
+            <p class="venue">One invention patent filed; Beijing Challenge Cup Second Prize</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">Project</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">Paper</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">Code</a>
+            </p>
+            <p class="summary">
+              Designed IR imaging and signal processing, using OpenCV and a BP neural network for feature extraction and parameter inversion, achieving a non-destructive prototype for permeability measurement.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="awards-en">
+        <h2>Selected Honors and Awards</h2>
+        <ul class="bullets">
+          <li><span class="date">2024.10</span> Grand Prize, 2024 China–Germany Intelligent Robotics Innovation & Entrepreneurship Competition</li>
+          <li><span class="date">2024.09</span> Excellent Graduate Student Scholarship</li>
+          <li><span class="date">—</span> Merit student, Outstanding Social Practice Individual, Outstanding Volunteer</li>
+        </ul>
+      </section>
+
+      <section class="section" id="service-en">
+        <h2>Service</h2>
+        <p>Reviewer for IROS 2025.</p>
+        <p>Reviewer for Device.</p>
+        <p>Reviewer for Smart cities.</p>
+      </section>
+
+      <section class="section" id="misc-en">
+        <h2>Misc</h2>
+        <p>
+          Skills: Proficient with PyTorch / TensorFlow / OpenCV; Visual perception–control closed-loop experience. English: CET-6.
+        </p>
+        <p>
+          Interests: Music (guitar, R&B; rock, pop), basketball, badminton, car racing, travel and video creation.
+        </p>
+        <p class="note">This site is inspired by Jon Barron's website and deployed on GitHub Pages.</p>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year-en"></span> Zhang Quan — Built for GitHub Pages</p>
+      </footer>
+      </div>
+
     </main>
 
     <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
+      (function() {
+        var yearElZh = document.getElementById('year');
+        if (yearElZh) yearElZh.textContent = new Date().getFullYear();
+        var yearElEn = document.getElementById('year-en');
+        if (yearElEn) yearElEn.textContent = new Date().getFullYear();
+
+        function applyLang(lang) {
+          var blocks = document.querySelectorAll('.lang-block');
+          blocks.forEach(function(b){ b.classList.remove('active'); });
+          var target = document.querySelector('.lang-block[data-lang="' + lang + '"]');
+          if (target) target.classList.add('active');
+          var buttons = document.querySelectorAll('.lang-switch [data-set-lang]');
+          buttons.forEach(function(btn){ btn.setAttribute('aria-pressed', String(btn.getAttribute('data-set-lang') === lang)); });
+          document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+          // Update title & description
+          if (lang === 'zh') {
+            document.title = '张权';
+            var md = document.querySelector('meta[name="description"]');
+            if (md) md.setAttribute('content', '张权 — 机器人与具身智能（Embodied AI）');
+          } else {
+            document.title = 'Quan Zhang';
+            var md2 = document.querySelector('meta[name="description"]');
+            if (md2) md2.setAttribute('content', 'Quan Zhang — Robotics and Embodied AI');
+          }
+          try { localStorage.setItem('lang', lang); } catch (e) {}
+        }
+
+        var saved = null;
+        try { saved = localStorage.getItem('lang'); } catch (e) {}
+        var initial = saved || 'en';
+        applyLang(initial);
+
+        document.querySelectorAll('.lang-switch [data-set-lang]').forEach(function(btn){
+          btn.addEventListener('click', function(){ applyLang(btn.getAttribute('data-set-lang')); });
+        });
+      })();
     </script>
   </body>
   </html>
