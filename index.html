@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wenye Yu</title>
+    <meta name="description" content="Wenye Yu — Robotics and Embodied AI" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <div class="title">
+          <h1 class="name">Wenye Yu</h1>
+          <p class="affiliation">Ph.D. Student, Machine Vision and Intelligence Group (MVIG), Shanghai Jiao Tong University</p>
+          <p class="advisors">Advised by Prof. Cewu Lu</p>
+          <p class="links">
+            <a href="#" target="_blank" rel="noopener">Email</a>
+            <span class="sep">/</span>
+            <a href="#" target="_blank" rel="noopener">Scholar</a>
+            <span class="sep">/</span>
+            <a href="#" target="_blank" rel="noopener">Twitter</a>
+            <span class="sep">/</span>
+            <a href="#" target="_blank" rel="noopener">Github</a>
+          </p>
+        </div>
+        <div class="avatar-wrap">
+          <img src="assets/profile.jpg" alt="profile photo" class="avatar" />
+        </div>
+      </header>
+
+      <section class="section intro">
+        <p>
+          Hi there! I am a first-year Ph.D. student at Machine Vision and Intelligence Group (MVIG), Shanghai Jiao Tong University, advised by Prof. Cewu Lu. I received my Bachelor's degree from the first session of Guozhi Class (held by Prof. Xiaoou Tang), Shanghai Jiao Tong University. Previously, I worked as a research intern at InternRobotics, supervised by Dr. Jiangmiao Pang.
+        </p>
+        <p>
+          My research interest lies in Robotics and Embodied AI, with a particular interest in human-in-the-loop learning and generalizable robotic manipulation. Representative works are highlighted.
+        </p>
+      </section>
+
+      <section class="section" id="news">
+        <h2>News</h2>
+        <ul class="news">
+          <li><span class="date">2025.10</span> 🎉 ARMADA wins Best Paper Award at IROS 2025 HRII Workshop!</li>
+          <li><span class="date">2025.04</span> 🎉 Robosplat is accepted by RSS 2025!</li>
+          <li><span class="date">2024.09</span> 🎉 One paper (Learning H-Infinity Locomotion Control) is accepted by CoRL 2024!</li>
+          <li><span class="date">2023.08</span> Joined InternRobotics</li>
+          <li><span class="date">2023.02</span> Joined Machine Vision and Intelligence Group (MVIG)</li>
+        </ul>
+      </section>
+
+      <section class="section" id="research">
+        <h2>Research</h2>
+
+        <article class="paper">
+          <div class="paper-body">
+            <h3 class="paper-title">ARMADA: Autonomous Online Failure Detection and Human Shared Control Empower Scalable Real-world Deployment and Adaptation</h3>
+            <p class="authors">Wenye Yu, Jun Lv, Zixi Ying, Yang Jin, Chuan Wen†, Cewu Lu†</p>
+            <p class="venue">In submission, 2025 <span class="badge">🏆 Best Paper Award at IROS 2025 Workshop on Human-in-the-Loop Robot Learning in the Era of Foundation Models</span></p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">project page</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">paper</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">code</a>
+            </p>
+            <p class="summary">
+              ARMADA is a multi-robot deployment and adaptation system with human-in-the-loop shared control, featuring an autonomous online failure detection method named FLOAT. It enables scalable deployment of pretrained policies and thereby expedites policy adaptation to novel scenarios.
+            </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-body">
+            <h3 class="paper-title">Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation</h3>
+            <p class="authors">Sizhe Yang*, Wenye Yu*, Jia Zeng, Jun Lv, Kerui Ren, Cewu Lu, Dahua Lin, Jiangmiao Pang†</p>
+            <p class="venue">Robotics: Science and Systems (RSS), 2025</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">project page</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">paper</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">code</a>
+            </p>
+            <p class="summary">
+              RoboSplat leverages 3D Gaussian Splatting to generate novel demonstrations for RGB-based policy learning in a one-shot manner, enabling robust performance across six types of visual generalization in the real world.
+            </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-body">
+            <h3 class="paper-title">SIME: Enhancing Policy Self-Improvement with Modal-level Exploration</h3>
+            <p class="authors">Yang Jin*, Jun Lv*, Wenye Yu, Hongjie Fang, Yong-Lu Li, Cewu Lu†</p>
+            <p class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">project page</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">paper</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">code</a>
+            </p>
+            <p class="summary">
+              With modal-level exploration, the robot can generate more diverse and multi-modal interaction data and effectively refine capabilities through self-improvement.
+            </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-body">
+            <h3 class="paper-title">Learning H-Infinity Locomotion Control</h3>
+            <p class="authors">Junfeng Long*, Wenye Yu*, Quanyi Li*, Zirui Wang, Dahua Lin, Jiangmiao Pang†</p>
+            <p class="venue">Conference on Robot Learning (CoRL), 2024 <span class="badge">🏆 Best Poster Award at CoRL 2024 LocoLearn Workshop</span></p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">project page</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">paper</a>
+            </p>
+            <p class="summary">
+              An adversarial framework for quadrupedal robots which enhances robustness against external forces with a performance guarantee.
+            </p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-body">
+            <h3 class="paper-title">GRUtopia: Dream General Robots in a City at Scale</h3>
+            <p class="authors">Hanqing Wang*, Jiahe Chen*, Wensi Huang*, Qingwei Ben*, Tai Wang*, Boyu Mi*, Tao Huang, Siheng Zhao, Yilun Chen, Sizhe Yang, Peizhou Cao, Wenye Yu, Zichao Ye, Jialun Li, Junfeng Long, Zirui Wang, Huiling Wang, Ying Zhao, Zhongying Tu, Yu Qiao, Dahua Lin, Jiangmiao Pang†</p>
+            <p class="venue">arXiv, 2024</p>
+            <p class="links">
+              <a href="#" target="_blank" rel="noopener">project page</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">paper</a>
+              <span class="sep">/</span>
+              <a href="#" target="_blank" rel="noopener">code</a>
+            </p>
+            <p class="summary">
+              A simulated interactive 3D society designed for various robots, featuring GRScenes (100k interactive scenes), GRResidents (LLM-driven NPC), and GRBench.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="awards">
+        <h2>Selected Honors and Awards</h2>
+        <ul class="bullets">
+          <li><span class="date">2025.06</span> Outstanding Graduates in Shanghai (Top 3%)</li>
+          <li><span class="date">2024.06</span> SenseTime Scholarship (top 25 undergraduates in China)</li>
+          <li><span class="date">2023.09</span> National Scholarship</li>
+          <li><span class="date">2022.09</span> National Scholarship (Highest Honour for undergraduates in China)</li>
+        </ul>
+      </section>
+
+      <section class="section" id="service">
+        <h2>Service</h2>
+        <p>I served as reviewer for the following conferences:</p>
+        <ul class="bullets">
+          <li>ICRA: 2026</li>
+        </ul>
+      </section>
+
+      <section class="section" id="misc">
+        <h2>Miscellanea</h2>
+        <p>
+          During off time, I am a music enthusiast, fond of a wide range of genres including Hip-Hop, R&amp;B, Rock, Pop, and Electronic. I'm also broadly interested in sports, among which basketball, tennis, and Formula 1 are my favourites. Besides, I am also a fan of travelling and cinematography.
+        </p>
+        <p class="note">This homepage is designed based on Jon Barron's website and deployed on Github Pages. The profile photo is taken by Annie Wang.</p>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Wenye Yu — Built for GitHub Pages</p>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+
