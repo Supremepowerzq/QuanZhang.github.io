@@ -1,6 +1,6 @@
 # 个人主页（GitHub Pages）
 
-这是一个极简、可直接部署到 GitHub Pages 的静态个人主页模板，已预填示例内容（Wenye Yu）。你可在本地修改后推送到你的 `<用户名>.github.io` 仓库，即可在线访问。
+这是一个极简、可直接部署到 GitHub Pages 的静态个人主页模板，已预填示例内容。你可在本地修改后推送到你的 `<用户名>.github.io` 仓库，即可在线访问。
 
 ## 目录结构
 
@@ -58,5 +58,6 @@ git push -u origin main
 本页样式灵感与学术主页结构参考学术社区常见模板；你提供的参考仓库示例见：
 
 - QuanZhang.github.io（GitHub Pages 示例仓库）：https://github.com/Supremepowerzq/QuanZhang.github.io
+
 
 
