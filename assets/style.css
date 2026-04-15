@@ -157,7 +157,7 @@ body {
   font-size: 14px;
   color: rgba(30, 55, 115, 0.9);
   line-height: 1.85;
-  text-align: left;
+  text-align: justify;
 }
 .section.intro p + p {
   margin-top: 10px;
@@ -259,6 +259,7 @@ body {
   color: #444;
   font-size: 13px;
   line-height: 1.75;
+  text-align: justify;
 }
 .summary a {
   color: var(--link);
@@ -297,8 +298,9 @@ body {
 .project-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
+  margin: auto;
 }
 .project-img-placeholder {
   position: absolute;
@@ -317,10 +319,10 @@ body {
 .project-img-placeholder.hidden { display: none; }
 
 /* ── Service ─────────────────────────────────────────── */
-#service p, #service-en p { margin: 3px 0; color: var(--muted); font-size: 13px; }
+#service p, #service-en p { margin: 3px 0; color: var(--muted); font-size: 13px; text-align: justify; }
 
 /* ── Misc ────────────────────────────────────────────── */
-.note { color: var(--muted); font-size: 12px; }
+.note { color: var(--muted); font-size: 12px; text-align: justify; }
 
 /* ── Footer ──────────────────────────────────────────── */
 .footer {
